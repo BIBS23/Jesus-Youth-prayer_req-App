@@ -1,16 +1,3 @@
-# prayer_req
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# This is front end for a simple Prayer Request App developed using Flutter . 
+# It has two text fields one for entering for whom the prayer is and the other to enter the prayer request
+# ![Screenshot_2022-12-06-22-45-30-55_c2f52859a50b6f45d7ea09d69970882c](https://user-images.githubusercontent.com/83808936/205978829-30dc1bb0-301b-4df5-b3fb-686de833936b.jpg)
