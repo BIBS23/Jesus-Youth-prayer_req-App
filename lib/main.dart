@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:animated_splash_screen/animated_splash_screen.dart';
+import 'package:prayer_req/splashscreen.dart';
+
 
 void main() {
-  runApp(MaterialApp(home: Home()));
+  runApp(MaterialApp(home: SplashScreen()));
 }
 
 class Home extends StatefulWidget {
@@ -38,8 +41,10 @@ class _HomeState extends State<Home> {
               mainAxisAlignment: MainAxisAlignment.center,
               crossAxisAlignment: CrossAxisAlignment.center,
               children: [
+                Padding(padding: EdgeInsets.only(bottom: 30),child:
+                  Text("Do Not Fear , For I Am With You Isaiah 41:13", style: TextStyle(fontStyle: FontStyle.italic,fontSize: 12,color: Color.fromARGB(255, 99, 98, 98)))),
                 Padding(
-                  padding: EdgeInsets.only(left: 10, right: 10),
+                  padding: EdgeInsets.only(left: 12, right: 12),
                   child: Container(
                   height: 300,
                   decoration: BoxDecoration(
@@ -116,12 +121,12 @@ class _HomeState extends State<Home> {
                         child: 
                         Text(
                           btntxt,
-                          style: TextStyle(fontSize: 20),
+                          style: TextStyle(fontSize: 18),
                         ),
                             
                     )
                   )
-                )
+                ),
               ]
             )
       )
